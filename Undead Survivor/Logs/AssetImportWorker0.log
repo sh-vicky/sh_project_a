@@ -813,3 +813,27 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Undead Survivor/Animations/AcPlayer1.overrideController using Guid(d566f0eb9731d48a4aa32753dd41c3a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0be2699c1d7189ea3a7ebfda609c151') in 0.062982 seconds 
 Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 95.609258 seconds.
+  path: Assets/Undead Survivor/Tiles/Pal.prefab
+  artifactKey: Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Undead Survivor/Tiles/Pal.prefab using Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7389595a22e50f34909383c1b8e25f58') in 0.373186 seconds 
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 65.444892 seconds.
+  path: Assets/Undead Survivor/Tiles/RanTile.asset
+  artifactKey: Guid(a689960881fca7843948244b3ebf663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Undead Survivor/Tiles/RanTile.asset using Guid(a689960881fca7843948244b3ebf663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1aeca914756915384f40eef78f40a80') in 0.038803 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 168.360044 seconds.
+  path: Assets/Undead Survivor/Tiles/Pal.prefab
+  artifactKey: Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Undead Survivor/Tiles/Pal.prefab using Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25f95079e020475fb99633191d00835') in 0.032355 seconds 
+Number of asset objects unloaded after import = 14
