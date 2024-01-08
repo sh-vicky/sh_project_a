@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51040
+56894
 Successfully changed project path to: /Users/seunghyenam/sh_project/sh_project_a/Undead Survivor
 /Users/seunghyenam/sh_project/sh_project_a/Undead Survivor
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,12 +54,12 @@ Successfully changed project path to: /Users/seunghyenam/sh_project/sh_project_a
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7990616192] Host "[IP] 10.10.10.130 [Port] 0 [Flags] 2 [Guid] 223988861 [EditorId] 223988861 [Version] 1048832 [Id] OSXEditor(0,SeungHyes-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [7990616192] Host "[IP] 10.10.10.130 [Port] 0 [Flags] 2 [Guid] 3923340415 [EditorId] 3923340415 [Version] 1048832 [Id] OSXEditor(0,SeungHyes-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7990616192] Host "[IP] 10.10.10.130 [Port] 0 [Flags] 2 [Guid] 223988861 [EditorId] 223988861 [Version] 1048832 [Id] OSXEditor(0,SeungHyes-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7990616192] Host "[IP] 10.10.10.130 [Port] 0 [Flags] 2 [Guid] 3923340415 [EditorId] 3923340415 [Version] 1048832 [Id] OSXEditor(0,SeungHyes-MacBook-Pro-2.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 257.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 86.04 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
 [Subsystems] Discovering subsystems at path /Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -74,13 +74,13 @@ Initialize mono
 Mono path[0] = '/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56459
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Users/seunghyenam/Project_tmp/2021.3.33f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Users/seunghyenam/Project_tmp/2021.3.33f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001798 seconds.
+Registered in 0.001742 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
@@ -88,31 +88,31 @@ Native extension for iOS target not found
 Native extension for Android target not found
 An ADB process has shut down when we were accessing it, the following System.ArgumentOutOfRangeException has been thrown: Index was out of range. Must be non-negative and less than the size of the collection.
 Parameter name: index.
-Android Extension - Scanning For ADB Devices 66 ms
+Android Extension - Scanning For ADB Devices 56 ms
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 84.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 87.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.550 seconds
 Domain Reload Profiling:
 	ReloadAssembly (550ms)
-		BeginReloadAssembly (66ms)
+		BeginReloadAssembly (74ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (430ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (424ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (69ms)
+			SetupTypeCache (68ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (316ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (310ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (162ms)
+				InitializePlatformSupportModulesInManaged (153ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (84ms)
+				RefreshPlugins (87ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (48ms)
 				ProcessInitializeOnLoadMethodAttributes (21ms)
@@ -122,41 +122,41 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001694 seconds.
+Registered in 0.004737 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 87.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.099 seconds
+- Completed reload, in  0.850 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1100ms)
-		BeginReloadAssembly (64ms)
+	ReloadAssembly (850ms)
+		BeginReloadAssembly (76ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (976ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (165ms)
+			SetupTypeCache (176ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (672ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (394ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (87ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (450ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -165,12 +165,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5300 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (1.2 MB). Loaded Objects now: 5750.
-Memory consumption went from 203.3 MB to 202.0 MB.
-Total: 3.010875 ms (FindLiveObjects: 0.187709 ms CreateObjectMapping: 0.108334 ms MarkObjects: 2.399209 ms  DeleteObjects: 0.314958 ms)
+Unloading 5680 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.5 MB). Loaded Objects now: 6131.
+Memory consumption went from 217.3 MB to 215.8 MB.
+Total: 3.257917 ms (FindLiveObjects: 0.212292 ms CreateObjectMapping: 0.119708 ms MarkObjects: 2.608500 ms  DeleteObjects: 0.317000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -186,136 +186,17 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1513474.563911 seconds.
-  path: Assets/Settings/Renderer2D.asset
-  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1540208.418268 seconds.
+  path: Assets/Undead Survivor/Player.inputactions
+  artifactKey: Guid(2118074e87322480d89cbd0620521836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.373173 seconds  code(4) message(Build asset version error: assets/settings/renderer2d.asset in SourceAssetDB has modification time of '2022-12-06T02:46:06Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/settings/renderer2d.asset in SourceAssetDB has modification time of '2022-12-06T02:46:06Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 1
+Start importing Assets/Undead Survivor/Player.inputactions using Guid(2118074e87322480d89cbd0620521836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ea362e0f75a2d4f95de6b3b809be3') in 0.498982 seconds 
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 603.262647 seconds.
+  path: Assets/Undead Survivor/Player.inputactions
+  artifactKey: Guid(2118074e87322480d89cbd0620521836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.103915 seconds  code(4) message(Build asset version error: assets/settings/lit2dscenetemplate.scenetemplate in SourceAssetDB has modification time of '2022-12-06T02:46:06Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/settings/lit2dscenetemplate.scenetemplate in SourceAssetDB has modification time of '2022-12-06T02:46:06Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 1.046241 seconds.
-  path: Assets/Undead Survivor/Audio/BGM.wav
-  artifactKey: Guid(4559935c00ef8e94b846e2e03e39f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Audio/BGM.wav using Guid(4559935c00ef8e94b846e2e03e39f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.321483 seconds  code(4) message(Build asset version error: assets/undead survivor/audio/bgm.wav in SourceAssetDB has modification time of '2023-11-07T21:26:00Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/audio/bgm.wav in SourceAssetDB has modification time of '2023-11-07T21:26:00Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Undead Survivor/Fonts/neodgm.ttf
-  artifactKey: Guid(e715fcabbb6163e48b780b3b92979f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Fonts/neodgm.ttf using Guid(e715fcabbb6163e48b780b3b92979f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.820234 seconds  code(4) message(Build asset version error: assets/undead survivor/fonts/neodgm.ttf in SourceAssetDB has modification time of '2023-11-07T21:26:14Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/fonts/neodgm.ttf in SourceAssetDB has modification time of '2023-11-07T21:26:14Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 130.858578 seconds.
-  path: Assets/Undead Survivor/Sprites/Farmer 0.png
-  artifactKey: Guid(99a24620d31e5ce4e823c32d11e17c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Farmer 0.png using Guid(99a24620d31e5ce4e823c32d11e17c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.110726 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/farmer 0.png in SourceAssetDB has modification time of '2023-11-07T21:26:08Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/farmer 0.png in SourceAssetDB has modification time of '2023-11-07T21:26:08Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 1.png
-  artifactKey: Guid(3bcb7877229a5334da528f2f0872b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Enemy 1.png using Guid(3bcb7877229a5334da528f2f0872b5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015887 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/enemy 1.png in SourceAssetDB has modification time of '2023-11-07T21:25:59Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/enemy 1.png in SourceAssetDB has modification time of '2023-11-07T21:25:59Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Undead Survivor/Sprites/Tiles.png
-  artifactKey: Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Tiles.png using Guid(9ee30eb7d2f1f404790266ee96a67099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015508 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/tiles.png in SourceAssetDB has modification time of '2023-11-07T21:26:09Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/tiles.png in SourceAssetDB has modification time of '2023-11-07T21:26:09Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 2.png
-  artifactKey: Guid(4104ee12b4d54f54b91b3ba875787837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Enemy 2.png using Guid(4104ee12b4d54f54b91b3ba875787837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012905 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/enemy 2.png in SourceAssetDB has modification time of '2023-11-07T21:25:59Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/enemy 2.png in SourceAssetDB has modification time of '2023-11-07T21:25:59Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Undead Survivor/Sprites/Props.png
-  artifactKey: Guid(0d5e657ee5a074e4baa53d5b248a01d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Props.png using Guid(0d5e657ee5a074e4baa53d5b248a01d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.041069 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/props.png in SourceAssetDB has modification time of '2023-11-07T21:25:55Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/props.png in SourceAssetDB has modification time of '2023-11-07T21:25:55Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 133.896384 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 0.png
-  artifactKey: Guid(1bc6097228993f045852159e71f81d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Enemy 0.png using Guid(1bc6097228993f045852159e71f81d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.039240 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/enemy 0.png in SourceAssetDB has modification time of '2023-11-07T21:25:57Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/enemy 0.png in SourceAssetDB has modification time of '2023-11-07T21:25:57Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000080 seconds.
-  path: Assets/Undead Survivor/Sprites/Farmer 1.png
-  artifactKey: Guid(0c187a32c5bde4747be8d00770b07403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Farmer 1.png using Guid(0c187a32c5bde4747be8d00770b07403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017233 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/farmer 1.png in SourceAssetDB has modification time of '2023-11-07T21:25:54Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/farmer 1.png in SourceAssetDB has modification time of '2023-11-07T21:25:54Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 3.png
-  artifactKey: Guid(d33598d781682e049a53a0a13104ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Enemy 3.png using Guid(d33598d781682e049a53a0a13104ef29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010460 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/enemy 3.png in SourceAssetDB has modification time of '2023-11-07T21:26:12Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/enemy 3.png in SourceAssetDB has modification time of '2023-11-07T21:26:12Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Undead Survivor/Sprites/Farmer 0.png
-  artifactKey: Guid(99a24620d31e5ce4e823c32d11e17c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Farmer 0.png using Guid(99a24620d31e5ce4e823c32d11e17c2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021365 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/farmer 0.png in SourceAssetDB has modification time of '2023-11-07T21:26:08Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/farmer 0.png in SourceAssetDB has modification time of '2023-11-07T21:26:08Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Undead Survivor/Sprites/Enemy 4.png
-  artifactKey: Guid(c4d2ccab0c2ad7e47853b6e31a7ac7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Enemy 4.png using Guid(c4d2ccab0c2ad7e47853b6e31a7ac7c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013242 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/enemy 4.png in SourceAssetDB has modification time of '2023-11-07T21:26:11Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/enemy 4.png in SourceAssetDB has modification time of '2023-11-07T21:26:11Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Undead Survivor/Sprites/Farmer 2.png
-  artifactKey: Guid(8f7a60065e3984c489b9c4d41bc3dc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Undead Survivor/Sprites/Farmer 2.png using Guid(8f7a60065e3984c489b9c4d41bc3dc4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015270 seconds  code(4) message(Build asset version error: assets/undead survivor/sprites/farmer 2.png in SourceAssetDB has modification time of '2023-11-07T21:26:07Z' while content on disk has modification time of '2024-01-05T09:54:13Z')
-  ERROR: Build asset version error: assets/undead survivor/sprites/farmer 2.png in SourceAssetDB has modification time of '2023-11-07T21:26:07Z' while content on disk has modification time of '2024-01-05T09:54:13Z'
-Number of asset objects unloaded after import = 0
+Start importing Assets/Undead Survivor/Player.inputactions using Guid(2118074e87322480d89cbd0620521836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b41faafabb514779910f928d779a1a') in 0.045875 seconds 
+Number of asset objects unloaded after import = 14
