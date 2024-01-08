@@ -837,3 +837,11 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Undead Survivor/Tiles/Pal.prefab using Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25f95079e020475fb99633191d00835') in 0.032355 seconds 
 Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 619.856266 seconds.
+  path: Assets/Undead Survivor/Tiles/Pal.prefab
+  artifactKey: Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Undead Survivor/Tiles/Pal.prefab using Guid(bd1d3a307d09cb440a7361eecc9c3d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f20d8329c5d8e0a9912bac8ab6fd02a9') in 0.042899 seconds 
+Number of asset objects unloaded after import = 19

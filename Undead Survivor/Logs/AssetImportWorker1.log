@@ -837,3 +837,11 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Undead Survivor/Tiles/RanTile.asset using Guid(a689960881fca7843948244b3ebf663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94610b8845663ea31c1937ad92e119a9') in 0.206790 seconds 
 Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 853.951063 seconds.
+  path: Assets/Undead Survivor/Tiles/RanTile.asset
+  artifactKey: Guid(a689960881fca7843948244b3ebf663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Undead Survivor/Tiles/RanTile.asset using Guid(a689960881fca7843948244b3ebf663a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e12e37198303f2d3e002b385c3bfb9') in 0.025701 seconds 
+Number of asset objects unloaded after import = 7
