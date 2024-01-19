@@ -323,7 +323,11 @@
 -r:"/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
+<<<<<<< Updated upstream
 -r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+=======
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+>>>>>>> Stashed changes
 -r:"Library/Bee/artifacts/200b0aE.dag/PPv2URPConverters.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
