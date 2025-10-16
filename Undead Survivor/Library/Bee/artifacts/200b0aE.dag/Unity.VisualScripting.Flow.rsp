@@ -110,8 +110,11 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:PACKAGE_INPUT_SYSTEM_EXISTS
+-define:PACKAGE_INPUT_SYSTEM_1_2_0_OR_NEWER_EXISTS
 -define:MODULE_AI_EXISTS
 -define:MODULE_ANIMATION_EXISTS
 -define:MODULE_PHYSICS_EXISTS
@@ -331,14 +334,15 @@
 -r:"/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"/Users/seunghyenam/Project_tmp/2021.3.33f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
--r:"/Users/seunghyenam/sh_project/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.collab-proxy@2.2.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
+-r:"/Users/seunghyenam/sh/sh_project_a/Undead Survivor/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/200b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
